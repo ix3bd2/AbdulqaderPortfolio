@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+
     <title>
         <%= htmlWebpackPlugin.options.title %>
     </title>
@@ -18,5 +20,54 @@
     <div id="app"></div>
     <!-- built files will be auto injected -->
 </body>
+<script>
+    var image = document.getElementsByClassName('thumbnail');
+    new simpleParallax(image, {
+        orientation: "down",
+        scale: 1.5,
+        maxTransition: 4000
+    });
+    var c = document.getElementById('c');
+    var cxt = c.getContext("2d");
+
+    c.width = window.innerWidth;
+    c.height = window.innerHeight;
+
+
+
+    var chinese = "QWERTYUIOPASDFGHJKLZXCVBNM";
+    chinese = chinese.split("");
+
+    var font_size = 10;
+    var columns = c.width / font_size;
+
+    var drops = [];
+
+    for (var x = 0; x < columns; x++) {
+        drops[x] = 1;
+    }
+
+    function draw() {
+        cxt.fillStyle = "rgba(0,0,0,0.05)";
+        cxt.fillRect(0, 0, c.width, c.height);
+
+        cxt.fillStyle = "#0F0";
+        cxt.font = font_size + 'px arial';
+
+
+        for (var i = 0; i < drops.length; i++) {
+            var text = chinese[Math.floor(Math.random() * chinese.length)];
+            cxt.fillText(text, i * font_size, drops[i] * font_size);
+
+            if (drops[i] * font_size > c.height && Math.random() > 0.975)
+                drops[i] = 0;
+
+            //increment y coordinate
+            drops[i]++;
+        }
+
+    }
+    setInterval(draw, 33);
+</script>
 
 </html>
