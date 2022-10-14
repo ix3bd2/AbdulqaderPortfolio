@@ -1,15 +1,16 @@
 <template>
 <nav-bar/>
 <my-header/>
-  <div style="background-color-white;height:2000px;background-color:white;"></div>
+<about />
 
 </template>
 
 <script>
+import About from './components/About.vue';
 import MyHeader from './components/MyHeader.vue';
 import NavBar from './components/NavBar.vue';
 export default {
-  components: { NavBar, MyHeader},
+  components: { NavBar, MyHeader, About},
   name: "App",
 };
 </script>

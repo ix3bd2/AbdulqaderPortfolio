@@ -35,16 +35,6 @@
       ></div>
     </div>
   </div>
-  <div
-    style="
-      color: #777;
-      background-color: white;
-      text-align: center;
-      padding: 50px 80px;
-      text-align: justify;
-    "
-  >
-  </div>
 </template>
 
 <script>
@@ -107,6 +97,7 @@ export default {};
   transform-origin: center bottom;
 }
 .waveTop {
+  
   background-size: 50% 110px;
 }
 .waveAnimation .waveTop {
@@ -122,6 +113,7 @@ export default {};
   animation: move_wave 10s linear infinite;
 }
 .waveBottom {
+  
   background-size: 50% 110px;
 }
 .waveAnimation .waveBottom {
