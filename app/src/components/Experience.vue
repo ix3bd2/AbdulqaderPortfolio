@@ -252,19 +252,17 @@ export default {};
   background-repeat: no-repeat;
 }
 .ex-title {
-    color: white;
+  color: white;
   font-family: "Lobster", cursive;
   font-weight: 700;
   font-size: 60px;
 }
 .ex-main {
-      
-
   background-color: rgba(255, 255, 255, 0);
   padding-top: 30px;
   padding-left: 10vw;
   padding-right: 10vw;
-  text-align: left;
+  text-align: center;
 }
 .logo-slider {
   background: rgba(0, 128, 0, 0);

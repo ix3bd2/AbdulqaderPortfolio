@@ -162,25 +162,9 @@ export default {};
   border: 1px solid gray;
   border-radius: 50%;
   transform: translate(-50%);
-  overflow: hidden;
-  background: linear-gradient(
-    to right,
-    rgb(237, 0, 0) 20%,
-    rgb(231, 190, 9) 40%,
-    #209b04 50%,
-    #057c66 55%,
-    rgb(111, 15, 159) 70%,
-    #fff 100%
-  );
-  background-size: 200% auto;
 
-  animation: shine 3s linear infinite;
 }
-@keyframes shine {
-  to {
-    background-position: 200% center;
-  }
-}
+
 @media (max-width: 991px) {
   .about-row {
   width: 100%;
