@@ -97,7 +97,8 @@ export default {};
   transform-origin: center bottom;
 }
 .waveTop {
-  
+  webkit-filter: invert(88%); /* Safari/Chrome */
+  filter: invert(88%);
   background-size: 50% 110px;
 }
 .waveAnimation .waveTop {
@@ -107,13 +108,16 @@ export default {};
   animation-delay: 1s;
 }
 .waveMiddle {
+  webkit-filter: invert(88%); /* Safari/Chrome */
+  filter: invert(88%);
   background-size: 50% 130px;
 }
 .waveAnimation .waveMiddle {
   animation: move_wave 10s linear infinite;
 }
 .waveBottom {
-  
+  webkit-filter: invert(88%); /* Safari/Chrome */
+  filter: invert(88%);
   background-size: 50% 110px;
 }
 .waveAnimation .waveBottom {

@@ -2,15 +2,18 @@
 <nav-bar/>
 <my-header/>
 <about />
-
+<experience />
+<projects />
 </template>
 
 <script>
 import About from './components/About.vue';
+import Experience from './components/Experience.vue';
 import MyHeader from './components/MyHeader.vue';
 import NavBar from './components/NavBar.vue';
+import Projects from './components/Projects.vue';
 export default {
-  components: { NavBar, MyHeader, About},
+  components: { NavBar, MyHeader, About, Experience, Projects},
   name: "App",
 };
 </script>
