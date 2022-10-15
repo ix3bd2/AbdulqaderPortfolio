@@ -13,213 +13,70 @@
 
     <div class="logo-slider">
       <div class="logo-slide-track">
-        <div class="slide">
+         <div class="slide">
           <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/4Rivers.png"
+            src="../assets/html-logo.png"
+            alt=""
+          />
+        </div>
+         <div class="slide">
+          <img
+            src="../assets/css-logo.png"
             alt=""
           />
         </div>
         <div class="slide">
           <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/AVT.png"
+            src="../assets/js-logo.png"
             alt=""
           />
         </div>
         <div class="slide">
           <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/CareerSource.png"
+            src="../assets/ts-logo.png"
             alt=""
           />
         </div>
         <div class="slide">
           <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/CFEC.png"
+            src="../assets/php-logo.png"
             alt=""
           />
         </div>
         <div class="slide">
           <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/CityofOrlando.png"
+            src="../assets/mysql-logo.png"
             alt=""
           />
         </div>
         <div class="slide">
           <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/CommunityCoordinatedCare.png"
+            src="../assets/python-logo.jpeg"
             alt=""
           />
         </div>
         <div class="slide">
           <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/DentalSociety.png"
+            src="../assets/symfony2-logo.png"
             alt=""
           />
         </div>
         <div class="slide">
           <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/DrPhillips.png"
+            src="../assets/vue-logo.png"
             alt=""
           />
         </div>
         <div class="slide">
           <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/Ferran.png"
+          style="background-color:white;border:1px solid grey;border-radius:50%;"
+            src="../assets/doctrine-logo.png"
             alt=""
           />
         </div>
         <div class="slide">
           <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/FloridaADA.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/FloridaHospital.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/Goodwill.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/HarvardJolly.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/HiltonOrlando.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/IndraSystems.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/JobsPartnership.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/Kenworth.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/L3.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/Lockheed.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/MACF.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/Marriott.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/Mitsubishi.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/NCS.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/Northrop.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/OrangeCountyFarmBureau.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/OrlandoHealth.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/ProImageSolutions.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/PublicAllies.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/SeaWorld.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/SecondHarvest.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/UF.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/Universal.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/UP.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/WaltDisney.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="https://www.orangetechcollege.net/UserFiles/Servers/Server_86919/Image/Partners/Wyndham.png"
+            src="../assets/github-logo.png"
             alt=""
           />
         </div>
@@ -307,7 +164,10 @@ export default {};
   animation-duration: 30s;
   animation-iteration-count: infinite;
 }
-
+.slide img{
+  width: 50px;
+  height: 50px;
+}
 .logo-slider .slide {
   height: 150px;
   width: 250px;
