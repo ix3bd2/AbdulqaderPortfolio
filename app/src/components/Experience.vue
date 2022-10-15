@@ -10,78 +10,19 @@
     <div class="ex-main">
       <h1 class="ex-title">Experience</h1>
     </div>
-
-    <div class="logo-slider">
-      <div class="logo-slide-track">
-         <div class="slide">
-          <img
-            src="../assets/html-logo.png"
-            alt=""
-          />
-        </div>
-         <div class="slide">
-          <img
-            src="../assets/css-logo.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="../assets/js-logo.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="../assets/ts-logo.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="../assets/php-logo.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="../assets/mysql-logo.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="../assets/python-logo.jpeg"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="../assets/symfony2-logo.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="../assets/vue-logo.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-          style="background-color:white;border:1px solid grey;border-radius:50%;"
-            src="../assets/doctrine-logo.png"
-            alt=""
-          />
-        </div>
-        <div class="slide">
-          <img
-            src="../assets/github-logo.png"
-            alt=""
-          />
-        </div>
-      </div>
-    </div>
+   <section class="customer-logos slider">
+      <div class="slide"><img src="../assets/html-logo.png"></div>
+      <div class="slide"><img src="../assets/css-logo.png"></div>
+      <div class="slide"><img src="../assets/js-logo.png"></div>
+      <div class="slide"><img src="../assets/ts-logo.png"></div>
+      <div class="slide"><img src="../assets/php-logo.png"></div>
+      <div class="slide"><img src="../assets/mysql-logo.png"></div>
+       <div class="slide"><img src="../assets/python-logo.jpeg"></div>
+      <div class="slide"><img src="../assets/symfony2-logo.png"></div>
+      <div class="slide"><img src="../assets/vue-logo.png"></div>
+      <div class="slide"><img src="../assets/github-logo.png"></div>
+    
+   </section>
   </div>
 </template>
 
@@ -95,8 +36,10 @@ export default {};
 /* Logo Slider */
 .ex{
     background-color: rgba(0, 128, 0, 0.488);
-      border-bottom: 0.25rem solid #025102;
-      height: 350px;
+      border-bottom: 0.25rem solid rgb(134 134 134);
+      height: 100%;
+      padding-bottom: 40px;
+      
 }
 .ex-under{
     position: absolute;
@@ -112,7 +55,7 @@ export default {};
   color: white;
   font-family: "Lobster", cursive;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 70px;
 }
 .ex-main {
   background-color: rgba(255, 255, 255, 0);
@@ -121,80 +64,121 @@ export default {};
   padding-right: 10vw;
   text-align: center;
 }
-.logo-slider {
-  background: rgba(0, 128, 0, 0);
-  -webkit-box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.125);
-  box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.125);
-  margin: auto;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
+
+.slick-slide {
+    margin: 30px 20px;
 }
 
-.logo-slider::before,
-.logo-slider::after {
-
-  content: "";
-  height: 175px;
-  position: absolute;
-  width: 200px;
-  z-index: 2;
+.slick-slide img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
 }
 
-.logo-slider::after {
-  right: 0;
-  top: 0;
-  -webkit-transform: rotateZ(180deg);
-  transform: rotateZ(180deg);
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
 }
 
-.logo-slider::before {
-  left: 0;
-  top: 0;
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
 }
 
-
-.logo-slider .logo-slide-track {
-  -webkit-animation: logo-scroll 60s linear infinite;
-  animation: logo-scroll 60s linear infinite;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: calc(250px * 14);
-  animation-duration: 30s;
-  animation-iteration-count: infinite;
-}
-.slide img{
-  width: 50px;
-  height: 50px;
-}
-.logo-slider .slide {
-  height: 150px;
-  width: 250px;
-  padding: 20px;
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
 }
 
-@-webkit-keyframes logo-scroll {
-  0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-
-  100% {
-    -webkit-transform: translateX(calc(-250px * 7));
-    transform: translateX(calc(-250px * 7));
-  }
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
 }
 
-@keyframes logo-scroll {
-  0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-
-  100% {
-    -webkit-transform: translateX(calc(-250px * 7));
-    transform: translateX(calc(-250px * 7));
-  }
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
 }
 </style>

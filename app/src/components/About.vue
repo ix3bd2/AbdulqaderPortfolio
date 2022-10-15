@@ -52,12 +52,12 @@ export default {};
   color: white;
   font-family: "Lobster", cursive;
   text-align: start;
-    border-bottom: 6px solid rgb(0, 0, 0);
+  border-bottom: 0.25rem solid rgb(134 134 134);
 
 }
 .About-title {
   font-weight: 700;
-  font-size: 60px;
+  font-size: 70px;
 }
 .about-row {
   width: 100%;
