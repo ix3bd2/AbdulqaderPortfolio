@@ -182,17 +182,6 @@ export default {};
 .main__brick{
   margin-top: -9%;
 }
-.projects {
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-    rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  background-color: #1f1f1f;
-  padding-top: 90px;
-  padding-left: 10vw;
-  padding-right: 10vw;
-  padding-bottom: 90px;
-
-  border-bottom: 0.25rem solid rgb(134 134 134);
-}
 .projects-title {
   color: white;
   font-family: "Lobster", cursive;
@@ -201,12 +190,14 @@ export default {};
   font-size: 70px;
 }
 .s-works {
-  padding-bottom: 1000px;
-  padding-top: 90px;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
   padding-left: 10vw;
   padding-right: 10vw;
-
+  overflow: hidden;
   background-color: #ffffff;
+      border-bottom: 0.25rem solid rgb(134 134 134);
 }
 
 .masonry-wrap {
