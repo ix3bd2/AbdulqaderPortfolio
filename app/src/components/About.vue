@@ -93,7 +93,7 @@ export default {};
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .thir-pic {
-  border: 2px solid red;
+  border: 2px solid green;
   width: 14vw;
   height: 14vw;
   left: 50%;
@@ -105,7 +105,7 @@ export default {};
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .four-pic {
-  border: 2px solid grey;
+  border: 2px solid green;
   width: 14vw;
   height: 14vw;
   left: 50%;
@@ -117,7 +117,7 @@ export default {};
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .fi-pic {
-  border: 2px solid yellow;
+  border: 2px solid green;
   width: 14vw;
   height: 14vw;
   left: 50%;
@@ -129,7 +129,7 @@ export default {};
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .six-pic {
-  border: 2px solid purple;
+  border: 2px solid green;
   width: 14vw;
   height: 14vw;
   left: 50%;
@@ -141,7 +141,7 @@ export default {};
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .sev-pic {
-  border: 2px solid blue;
+  border: 2px solid green;
   width: 14vw;
   height: 14vw;
   left: 50%;
@@ -159,7 +159,7 @@ export default {};
   height: 18.4vw;
   left: 50%;
   top: 10.458vw;
-  border: 1px solid gray;
+  border: 1px solid green;
   border-radius: 50%;
   transform: translate(-50%);
 
@@ -215,7 +215,7 @@ export default {};
       rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
   .thir-pic {
-    border: 2px solid red;
+    border: 2px solid green;
     width: 25vw;
     height: 25vw;
     left: 50%;
@@ -227,7 +227,7 @@ export default {};
       rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
   .four-pic {
-    border: 2px solid grey;
+    border: 2px solid green;
     width: 25vw;
     height: 25vw;
     left: 50%;
@@ -239,7 +239,7 @@ export default {};
       rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
   .fi-pic {
-    border: 2px solid yellow;
+    border: 2px solid green;
     width: 25vw;
     height: 25vw;
     left: 50%;
@@ -251,7 +251,7 @@ export default {};
       rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
   .six-pic {
-    border: 2px solid purple;
+    border: 2px solid green;
     width: 25vw;
     height: 25vw;
     left: 50%;
@@ -263,7 +263,7 @@ export default {};
       rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
   .sev-pic {
-    border: 2px solid blue;
+    border: 2px solid green;
     width: 25vw;
     height: 25vw;
     left: 50%;

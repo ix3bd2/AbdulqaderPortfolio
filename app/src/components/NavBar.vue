@@ -22,7 +22,12 @@
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#"
-              ><font-awesome-icon icon="fa-solid fa-brain" /> Experience</a
+              ><font-awesome-icon icon="fa-solid fa-brain" /> Skills</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"
+              ><font-awesome-icon icon="fa-solid fa-graduation-cap" /> Work & Education</a
             >
           </li>
           <li class="nav-item">

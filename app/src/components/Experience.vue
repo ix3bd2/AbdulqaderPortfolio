@@ -8,7 +8,7 @@
     class="ex"
   >
     <div class="ex-main">
-      <h1 class="ex-title">Experience</h1>
+      <h1 class="ex-title">Skills</h1>
     </div>
    <section class="customer-logos slider">
       <div class="slide"><img src="../assets/html-logo.png"></div>
@@ -38,7 +38,8 @@ export default {};
     background-color: rgba(0, 128, 0, 0.488);
       border-bottom: 0.25rem solid rgb(134 134 134);
       height: 100%;
-      padding-bottom: 40px;
+      padding-bottom: 80px;
+      padding-top: 40px;
       
 }
 .ex-under{
@@ -59,19 +60,20 @@ export default {};
 }
 .ex-main {
   background-color: rgba(255, 255, 255, 0);
-  padding-top: 30px;
+    padding-bottom: 40px;
+
   padding-left: 10vw;
   padding-right: 10vw;
-  text-align: center;
+  text-align: left;
 }
 
 .slick-slide {
-    margin: 30px 20px;
+    margin: 0px 20px;
 }
 
 .slick-slide img {
-    width: 80%;
-    height: 80%;
+    width: 75%;
+    height: 75%;
     object-fit: cover;
 }
 
