@@ -1,9 +1,8 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-default" id="NavBar">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+  <nav class="navbar navbar-expand-lg" id="NavBar">
+    <div class="container-fluid justify-content-end">
       <button
-        class="navbar-toggler custom-toggler"
+        class="navbar-toggler custom-toggler "
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent"
@@ -13,25 +12,25 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav   ">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"
+            <a class="nav-link active" aria-current="page" href="#AboutMain"
               ><font-awesome-icon icon="fa-solid fa-address-card" /> About</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"
+            <a class="nav-link active" aria-current="page" href="#ex"
               ><font-awesome-icon icon="fa-solid fa-brain" /> Skills</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"
+            <a class="nav-link active" aria-current="page" href="#Educ"
               ><font-awesome-icon icon="fa-solid fa-graduation-cap" /> Work & Education</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"
+            <a class="nav-link active" aria-current="page" href="#works"
               ><font-awesome-icon icon="fa-solid fa-briefcase" /> Porjects</a
             >
           </li>

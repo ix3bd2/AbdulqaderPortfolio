@@ -11,17 +11,13 @@
           <div class="timeline__block">
             <div class="timeline__bullet"></div>
             <div class="timeline__header">
-              <p class="timeline__timeframe">July 2018 - Present</p>
-              <h3 class="item-title">Awesome Studio</h3>
-              <h5>Lead Designer</h5>
+              <p class="timeline__timeframe">March 2021 - June 2022</p>
+              <h3 class="item-title">Amaze360</h3>
+              <h5>Software developer</h5>
             </div>
             <div class="timeline__desc">
               <p>
-                Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna
-                consectetur nisi cupidatat laboris esse eiusmod deserunt aute do
-                quis velit esse sed Ut proident cupidatat nulla esse cillum
-                laborum occaecat nostrud sit dolor incididunt amet est occaecat
-                nisi.
+                It was my first full-time job as a software developer. Our job was to create 360 escape rooms. I created The API which they are using for their games and helped building 3 online escape rooms.
               </p>
             </div>
           </div>
@@ -29,17 +25,13 @@
           <div class="timeline__block">
             <div class="timeline__bullet"></div>
             <div class="timeline__header">
-              <p class="timeline__timeframe">July 2017 - June 2018</p>
-              <h3 class="item-title">Super Cool Agency</h3>
-              <h5>Frontend Developer</h5>
+              <p class="timeline__timeframe">Feb 2019 - Feb 2021</p>
+              <h3 class="item-title">Dirk</h3>
+              <h5>Merchandiser</h5>
             </div>
             <div class="timeline__desc">
               <p>
-                Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna
-                consectetur nisi cupidatat laboris esse eiusmod deserunt aute do
-                quis velit esse sed Ut proident cupidatat nulla esse cillum
-                laborum occaecat nostrud sit dolor incididunt amet est occaecat
-                nisi.
+                
               </p>
             </div>
           </div>
@@ -55,17 +47,13 @@
           <div class="timeline__block">
             <div class="timeline__bullet"></div>
             <div class="timeline__header">
-              <p class="timeline__timeframe">July 2011 - June 2015</p>
-              <h3 class="item-title">University of Life</h3>
-              <h5>Master Degree</h5>
+              <p class="timeline__timeframe">Sep 2022 - Present</p>
+              <h3 class="item-title">The Hague University of Applied Sciences (Software Engineering)</h3>
+              <h5>Bachelor Degree</h5>
             </div>
             <div class="timeline__desc">
               <p>
-                Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna
-                consectetur nisi cupidatat laboris esse eiusmod deserunt aute do
-                quis velit esse sed Ut proident cupidatat nulla esse cillum
-                laborum occaecat nostrud sit dolor incididunt amet est occaecat
-                nisi.
+                I'm studying at The Hague University because i want learn new programming languages and frameworks. Bachelor degree should also help me in the future.
               </p>
             </div>
           </div>
@@ -73,17 +61,13 @@
           <div class="timeline__block">
             <div class="timeline__bullet"></div>
             <div class="timeline__header">
-              <p class="timeline__timeframe">July 2009 - June 2011</p>
-              <h3 class="item-title">State Design University</h3>
-              <h5>Bachelor Degree</h5>
+              <p class="timeline__timeframe">July 2019 - June 2022</p>
+              <h3 class="item-title">ROC Mondriaan (Web Development)</h3>
+              <h5>MBO4 Degree</h5>
             </div>
             <div class="timeline__desc">
               <p>
-                Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna
-                consectetur nisi cupidatat laboris esse eiusmod deserunt aute do
-                quis velit esse sed Ut proident cupidatat nulla esse cillum
-                laborum occaecat nostrud sit dolor incididunt amet est occaecat
-                nisi.
+                
               </p>
             </div>
           </div>
