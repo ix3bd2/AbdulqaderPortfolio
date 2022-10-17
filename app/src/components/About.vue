@@ -1,5 +1,5 @@
 <template>
-  <div class="About">
+  <div class="About" id="AboutMain">
     <h1 class="About-title">About me</h1>
     <div class="row about-row">
       <div class="col-lg-6 col-md-12"></div>
