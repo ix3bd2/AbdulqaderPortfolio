@@ -2,8 +2,10 @@
   <div class="About" id="AboutMain">
     <h1 class="About-title">About me</h1>
     <div class="row about-row">
-      <div class="col-lg-6 col-md-12"></div>
-      <div class="col-lg-6 col-md-12 pic-col" style="position: relative">
+      <div class="col-lg-6 col-sm-12 about-text">My name is Abdulqader Haritani (20). I'm an eager to learn, ambitious and hardworking individual, With some skills and experience in programming.
+        I like to code, edit videos and play football/video games in my spare time. Because i have alot of spare time, i'm currently searching for 16 hours job during the week or 32 hours (Monday, Tuesday, Saturday and Sunday). i can speak Dutch, English and Arabic(first language)
+      </div>
+      <div class="col-lg-6 col-sm-12 pic-col" style="position: relative">
         <div class="border">
           <img class="about-pictures main-pic" src="../assets/portimg.jpeg" />
         </div>
@@ -42,8 +44,11 @@ export default {};
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
 .About {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    overflow: hidden;
+    height: 100%;
   margin-top: 30px;
   background-color: #1f1f1f;
   padding-top: 90px;
@@ -116,6 +121,12 @@ export default {};
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+.about-text{
+  padding: 30px;
+  padding-right: 4%!important;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
 .fi-pic {
   border: 2px solid green;
   width: 14vw;
@@ -164,8 +175,29 @@ export default {};
   transform: translate(-50%);
 
 }
-
-@media (max-width: 991px) {
+@media (max-width: 500px) {
+  .about-text{
+padding-top: 30px;
+  padding-bottom: 0px;
+  padding-right: 0%!important;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px!important;
+  }
+  .About {
+    height: 900px!important;
+  }
+}
+@media (max-width: 800px) {
+  .About {
+    height: 1000px;
+  }
+  .about-text{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 0%!important;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 17px;
+}
   .about-row {
   width: 100%;
   height: 120vw;
