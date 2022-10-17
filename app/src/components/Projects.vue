@@ -521,7 +521,7 @@ export default {};
 
 @media screen and (max-width: 800px) {
   .s-works {
-    padding-top: 16rem;
+    padding-top: 8rem;
   }
 
   .masonry-wrap {

@@ -1,5 +1,5 @@
 <template>
-  <div class="educ">
+  <div class="educ" id="Educ">
     <h1 class="educ-title">Work & Education</h1>
     <div class="row about-experience__timeline">
       <div class="col-lg-6 col-sm-12 large-half tab-full" data-aos="fade-up">

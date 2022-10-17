@@ -15,8 +15,8 @@
       <p class="footer-links">
           <a class="link-1" href="#AboutMain">About&nbsp;</a>
           <a class="link-1" href="#ex">Skills&nbsp;</a>
-          <a class="link-1">Work & Education&nbsp;</a>
-          <a class="link-1">Projcts&nbsp;</a>
+          <a class="link-1" href="#Educ">Work & Education&nbsp;</a>
+          <a class="link-1" href="#works">Projcts&nbsp;</a>
       </p>
 
       <p>Abdulqader&copy; 2021</p>
