@@ -21,8 +21,9 @@
           <div class="item-folio">
             <div class="item-folio__thumb">
               <a
-                href="images/portfolio/gallery/g-city-building.jpg"
+                href="https://genshinworldrecords.com/"
                 class="thumb-link"
+                target="_blank"
                 title="Shutterbug"
                 data-size="1050x700"
               >
@@ -33,11 +34,18 @@
                 />
               </a>
               <a
-                href="https://www.behance.net/"
+                href="https://genshinworldrecords.com/"
                 class="item-folio__project-link"
                 title="Project link"
                 target="_blank"
               ></a>
+                            <img class="used-lang" src="../assets/html-logo.png" />
+                            <img class="used-lang-css" src="../assets/css-logo.png" />
+                            <img class="used-lang-js" src="../assets/js-logo.png" />
+                            <img class="used-lang-php" src="../assets/php-logo.png" />
+                            <img class="used-lang-symfony" src="../assets/symfony2-logo.png" />
+          <img class="used-lang-vue" src="../assets/vue-logo.png" />
+
             </div>
 
             <div class="item-folio__text">
@@ -50,6 +58,7 @@
                 Vero molestiae sed aut natus excepturi. Et tempora numquam.
                 Temporibus iusto quo.Unde dolorem corrupti neque nisi.
               </p>
+              
             </div>
           </div>
         </div>
@@ -59,23 +68,28 @@
           <div class="item-folio">
             <div class="item-folio__thumb">
               <a
-                href="images/portfolio/gallery/g-woodcraft.jpg"
+                href="https://www.youtube.com/watch?v=XRWAyNz9TO8"
                 class="thumb-link"
                 title="Woodcraft"
                 data-size="1050x700"
+                target="_blank"
               >
                 <img src="../assets/fortuin.webp" width="100%" height="100%" />
               </a>
               <a
-                href="https://www.behance.net/"
+                href="https://www.youtube.com/watch?v=XRWAyNz9TO8"
                 class="item-folio__project-link"
                 title="Project link"
                 target="_blank"
               ></a>
+              <img class="used-lang1" src="../assets/html-logo.png" />
+                            <img class="used-lang-css1" src="../assets/css-logo.png" />
+                            <img class="used-lang-js1" src="../assets/js-logo.png" />
+                            
             </div>
             <div class="item-folio__text">
               <h4 class="item-folio__title">GF Fortuin</h4>
-              <p class="item-folio__cat">Escape Room</p>
+              <p class="item-folio__cat">360 Escape Room</p>
             </div>
             <div class="item-folio__caption">
               <p>
@@ -91,19 +105,24 @@
           <div class="item-folio">
             <div class="item-folio__thumb">
               <a
-                href="images/portfolio/gallery/g-woodcraft.jpg"
+                href="https://sdg.portal.amaze360.nl/"
                 class="thumb-link"
                 title="Woodcraft"
                 data-size="1050x700"
+                target="_blank"
               >
                 <img style="margin-left: -50px;" src="../assets/portal.png" width="140%" height="180%" />
               </a>
               <a
-                href="https://www.behance.net/"
+                href="https://sdg.portal.amaze360.nl/"
                 class="item-folio__project-link"
                 title="Project link"
                 target="_blank"
               ></a>
+              <img class="used-lang1" src="../assets/html-logo.png" />
+                            <img class="used-lang-css1" src="../assets/css-logo.png" />
+                            <img class="used-lang-js1" src="../assets/js-logo.png" />
+                            <img class="used-lang-vue1" src="../assets/vue-logo.png" />
             </div>
             <div class="item-folio__text">
               <h4 class="item-folio__title">360 Games</h4>
@@ -123,7 +142,6 @@
           <div class="item-folio">
             <div class="item-folio__thumb">
               <a
-                href="images/portfolio/gallery/g-shutterbug.jpg"
                 class="thumb-link"
                 title="Grow Green"
                 data-size="1050x700"
@@ -136,15 +154,12 @@
                   alt=""
                 />
               </a>
-              <a
-                href="https://www.behance.net/"
-                class="item-folio__project-link"
-                title="Project link"
-                target="_blank"
-              ></a>
+         <img class="used-php1" src="../assets/php-logo.png" />
+                            <img class="used-lang-symfony1" src="../assets/symfony2-logo.png" />
+                          
             </div>
             <div class="item-folio__text">
-              <h4 class="item-folio__title">360 Games</h4>
+              <h4 class="item-folio__title">360 Games/Portals</h4>
               <p class="item-folio__cat">API</p>
             </div>
             <div class="item-folio__caption">
@@ -171,6 +186,102 @@ export default {};
 
 <style>
 @import url("https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,500|Lora:400,400i,700,700i|Roboto:300,400,500,600,700");
+.used-php1{
+  width:13% !important;
+  height: 13%!important;
+  position: absolute;
+  z-index: 4;
+  top: 2%;
+  right: 10px;
+}
+.used-lang-symfony1{
+  width:13% !important;
+  height: 13%!important;
+  position: absolute;
+  z-index: 4;
+  top: 16%;
+  right: 10px;
+}
+.used-lang1{
+  width:13% !important;
+  height: 10%!important;
+  position: absolute;
+  z-index: 4;
+  top: 2%;
+  right: 10px;
+}
+.used-lang-css1{
+  width:13% !important;
+  height: 10%!important;
+  position: absolute;
+  z-index: 4;
+  top: 13%;
+  right: 10px;
+}
+.used-lang-js1{
+  width:13% !important;
+  height: 10%!important;
+  position: absolute;
+  z-index: 4;
+  top: 24%;
+  right: 10px;
+}
+.used-lang-vue1{
+  width:13% !important;
+  height: 10%!important;
+  position: absolute;
+  z-index: 4;
+  top: 35%;
+  right: 10px;
+}
+.used-lang{
+  width:13% !important;
+  height: 13%!important;
+  position: absolute;
+  z-index: 4;
+  top: 2%;
+  right: 10px;
+}
+.used-lang-css{
+  width:13% !important;
+  height: 13%!important;
+  position: absolute;
+  z-index: 4;
+  top: 16%;
+  right: 10px;
+}
+.used-lang-js{
+  width:13% !important;
+  height: 13%!important;
+  position: absolute;
+  z-index: 4;
+  top: 30%;
+  right: 10px;
+}
+.used-lang-php{
+  width:13% !important;
+  height: 13%!important;
+  position: absolute;
+  z-index: 4;
+  top: 44%;
+  right: 10px;
+}
+.used-lang-symfony{
+  width:13% !important;
+  height: 13%!important;
+  position: absolute;
+  z-index: 4;
+  top: 58%;
+  right: 10px;
+}
+.used-lang-vue{
+  width:13% !important;
+  height: 13%!important;
+  position: absolute;
+  z-index: 4;
+  top: 72%;
+  right: 10px;
+}
 .section-desc {
   font-family: "Frank Ruhl Libre", serif;
   font-size: 2.1rem;
@@ -300,18 +411,18 @@ export default {};
   z-index: 2;
   position: absolute;
   bottom: 0;
-  right: 0;
+  left: 0;
 }
 
 /* item-folio thumb on hover 
  * ----------------------------------------------- */
-.item-folio__thumb:hover a::before,
-.item-folio__thumb:hover a::after {
+.item-folio__thumb a::before,
+.item-folio__thumb a::after {
   opacity: 1;
   visibility: visible;
 }
 
-.item-folio__thumb:hover .item-folio__project-link {
+.item-folio__thumb .item-folio__project-link {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
@@ -376,8 +487,8 @@ export default {};
   }
 
   .item-folio__thumb .item-folio__project-link {
-    width: 5.6rem;
-    height: 5.6rem;
+    width: 4.6rem;
+    height: 4.6rem;
   }
 
   .item-folio__title,
