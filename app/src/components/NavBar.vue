@@ -35,19 +35,20 @@
             >
           </li>
         </ul>
-        <!-- <form class="d-flex" role="search">
-          <button class="btn btn-outline-success" type="submit">
-            ContacMe
-          </button>
-        </form> -->
-      </div>
-        <ul class="navbar-nav   ">
+        <ul class="navbar-nav ">
           <li class="nav-item">
                   <a href="https://www.linkedin.com/in/abdulqader-haritani-763a67199/" target="_blank"><i class="fa fa-linkedin" style="background-color:#1f1f1f;padding:5px;border-radius:2%"></i></a>
 
           </li>
           
         </ul>
+        <!-- <form class="d-flex" role="search">
+          <button class="btn btn-outline-success" type="submit">
+            ContacMe
+          </button>
+        </form> -->
+      </div>
+        
         <!-- <form class="d-flex" role="search">
           <button class="btn btn-outline-success" type="submit">
             ContacMe
