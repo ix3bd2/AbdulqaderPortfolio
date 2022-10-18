@@ -17,7 +17,7 @@
             </div>
             <div class="timeline__desc">
               <p>
-                It was my first full-time job as a software developer. Our job was to create 360 escape rooms. I created The API which they are using for their games and helped building 3 online escape rooms.
+                In my first full-time job, as a software developer. I worked closely with a team to create 360 escape-rooms. My direct contribution was in creating the API independently, and helping to build 3 online escape rooms.
               </p>
             </div>
           </div>

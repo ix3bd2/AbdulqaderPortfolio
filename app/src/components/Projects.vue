@@ -24,7 +24,7 @@
                 href="https://genshinworldrecords.com/"
                 class="thumb-link"
                 target="_blank"
-                title="Shutterbug"
+                title="Genshin Impact"
                 data-size="1050x700"
               >
                 <img
@@ -70,7 +70,7 @@
               <a
                 href="https://www.youtube.com/watch?v=XRWAyNz9TO8"
                 class="thumb-link"
-                title="Woodcraft"
+                title="GF Fortuin"
                 data-size="1050x700"
                 target="_blank"
               >
@@ -107,7 +107,7 @@
               <a
                 href="https://sdg.portal.amaze360.nl/"
                 class="thumb-link"
-                title="Woodcraft"
+                title="360 Games"
                 data-size="1050x700"
                 target="_blank"
               >
@@ -143,7 +143,7 @@
             <div class="item-folio__thumb">
               <a
                 class="thumb-link"
-                title="Grow Green"
+                title="360 API"
                 data-size="1050x700"
               >
                 <img

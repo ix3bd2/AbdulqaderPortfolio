@@ -31,4 +31,7 @@ export default {
   text-align: center;
   height: 100%;
 }
+body{
+  background-color: black !important;
+}
 </style>
