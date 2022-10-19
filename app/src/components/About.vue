@@ -214,7 +214,7 @@ padding-top: 30px;
     overflow: hidden;
     background: linear-gradient(
       to right,
-      rgb(237, 0, 0) 20%,
+      green,
       rgb(231, 190, 9) 40%,
       #209b04 50%,
       #057c66 55%,
