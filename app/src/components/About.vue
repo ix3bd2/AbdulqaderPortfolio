@@ -4,7 +4,14 @@
     <div class="row about-row">
       <div class="col-lg-6 col-sm-12 about-text">My name is Abdulqader Haritani (20). I'm an eager to learn, ambitious and hardworking individual, With some skills and experience in programming.
         I like to code, edit videos and play football/video games in my spare time. Because i have alot of spare time, i'm currently searching for 16/24 hours job during the week or 32 hours (Monday, Tuesday, Saturday and Sunday). i can speak Dutch, English and Arabic(first language)
+        <br>
+        <div style="padding-top:10px;">
+        Email: Haritani2002@gmail.com.
+        <br>
+        Phone number: 0639206723.
+        </div>
       </div>
+      
       <div class="col-lg-6 col-sm-12 pic-col" style="position: relative">
         <div class="border">
           <img class="about-pictures main-pic" src="../assets/portimg.jpeg" />
