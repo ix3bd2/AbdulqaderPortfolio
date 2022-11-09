@@ -31,7 +31,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#works"
-              ><font-awesome-icon icon="fa-solid fa-briefcase" /> Porjects</a
+              ><font-awesome-icon icon="fa-solid fa-briefcase" /> Project</a
             >
           </li>
         </ul>
