@@ -3,7 +3,7 @@
     <h1 class="About-title">About me</h1>
     <div class="row about-row">
       <div class="col-lg-6 col-sm-12 about-text">My name is Abdulqader Haritani (20). I'm an eager to learn, ambitious and hardworking individual, With some skills and experience in programming.
-        I like to code, edit videos and play football/video games in my spare time. Because i have alot of spare time. I can speak Dutch, English and Arabic(first language).
+        I like to code, edit videos and play football/video games in my spare time. I can speak Dutch, English and Arabic(first language).
         <br>
         <div style="padding-top:10px;">
         Email: Haritani2002@gmail.com.
