@@ -48,7 +48,7 @@
             <div class="timeline__bullet"></div>
             <div class="timeline__header">
               <p class="timeline__timeframe">Sep 2022 - Present</p>
-              <h3 class="item-title">The Hague University of Applied Sciences (Software Engineering)</h3>
+              <h3 class="item-title">The Hague University of Applied Sciences (Software Engineering / Parttime)</h3>
               <h5>Bachelor Degree</h5>
             </div>
             <div class="timeline__desc">
